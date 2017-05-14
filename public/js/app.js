@@ -2,7 +2,7 @@ angular.module('myApp', ['ui.router'])
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('home', {
-                url:'/',
+                url:'/home',
                 templateUrl:"./js/home/home.html",
               })
             .state('men', {
@@ -19,7 +19,8 @@ angular.module('myApp', ['ui.router'])
                 templateUrl: "./js/kids/kids.html",
               })
               .state('login', {
-                  url:'/login',
+                  url:'/',
+                  templateUrl:'./js/login/login.html',
                 })
               .state('about', {
                   url:'/about',

@@ -12,3 +12,34 @@ body {
     padding: 0;
     text-align: center;
 }
+
+.navbar{
+    margin-top: 20px;
+}
+.user_name{
+  padding: 15px;
+}
+.navbar-brand{
+  font-family:
+}
+.black_header{
+  width: 100%;
+  height: 20px;
+  background-color: #1A171B;
+  color:white;
+  position: fixed;
+  top: 0;
+  text-decoration: none;
+}
+.header-cont > a{
+  float: right;
+  font-family:'Asar', serif;
+  font-weight: lighter;
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 50px;
+}
+.header-cont > a:hover{
+  text-decoration: none;
+  color: grey;
+}
