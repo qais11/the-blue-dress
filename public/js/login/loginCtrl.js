@@ -1,5 +1,4 @@
-// angular.module('myApp')
-// .controller('loginCtrl' , function($scope, mainService){
-//   $scope.hidHeader = mainService.hidHeader
-//
-// })
+angular.module('myApp')
+.controller('loginCtrl' , function($scope,$state ,mainService){
+$scope.goHome = mainService.goHome
+})

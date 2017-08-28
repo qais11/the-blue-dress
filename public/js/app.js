@@ -1,6 +1,15 @@
 angular.module('myApp', ['ui.router'])
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
+            .state('login', {
+              url:'/',
+              templateUrl:'./js/login/login.html',
+              controller:'loginCtrl'
+            })
+            .state('cart', {
+                url:'/cart',
+                templateUrl:"./js/cart/cart.html",
+              })
             .state('home', {
                 url:'/home',
                 templateUrl:"./js/home/home.html",
@@ -18,10 +27,6 @@ angular.module('myApp', ['ui.router'])
                 url:'/kids',
                 templateUrl: "./js/kids/kids.html",
               })
-              .state('login', {
-                  url:'/',
-                  templateUrl:'./js/login/login.html',
-                })
               .state('about', {
                   url:'/about',
                   templateUrl: "./js/about/about.html",

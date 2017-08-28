@@ -1,0 +1,27 @@
+{
+  "name": "the-blue-dress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qais11/the-blue-dress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qais11/the-blue-dress/issues"
+  },
+  "homepage": "https://github.com/qais11/the-blue-dress#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "massive": "^3.1.0"
+  }
+}

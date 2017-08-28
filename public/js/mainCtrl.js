@@ -5,5 +5,6 @@ angular.module('myApp')
   $rootScope.$on("$locationChangeStart", function() {
     ( $location.$$path === '/')? $scope.headerIsHidden = false : $scope.headerIsHidden = true;
   });
+  
 
 });

@@ -1,3 +1,3 @@
 angular.module('myApp')
-.controller('womenCtrl' , function($scope , womenService){
+.controller('womenCtrl' , function($scope , mainService){
 });

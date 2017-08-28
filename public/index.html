@@ -13,12 +13,11 @@
 <body ng-controller="mainCtrl">
   <div class='black_header' ng-if='headerIsHidden' >
     <div class="header-cont">
-      <a href="/">Sign out</a>
-      <a href="cart">Shopping cart</a>
+      <a ui-sref="/">Sign out</a>
+      <a ui-sref="cart">Shopping cart</a>
     </div>
   </div>
 <ui-view></ui-view>
-<h1>{{headerIsHidden}}</h1>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" charset="utf-8"></script>
@@ -28,13 +27,10 @@
 <script src="./js/mainCtrl.js" charset="utf-8"></script>
 <script src="./js/mainService.js" charset="utf-8"></script>
 <script src="./js/home/homeCtrl.js" charset="utf-8"></script>
-<script src="./js/home/homeService.js" charset="utf-8"></script>
 <script src="./js/kids/kidsCtrl.js" charset="utf-8"></script>
-<script src="./js/kids/kidsService.js" charset="utf-8"></script>
 <script src="./js/men/menCtrl.js" charset="utf-8"></script>
-<script src="./js/men/menService.js" charset="utf-8"></script>
+<script src="./js/login/loginCtrl.js" charset="utf-8"></script>
 <script src="./js/women/womenCtrl.js" charset="utf-8"></script>
-<script src="./js/women/womenService.js" charset="utf-8"></script>
 <script src="./js/directives/footer/footerdirective.js" charset="utf-8"></script>
 <script src="./js/directives/header/headerDirective.js" charset="utf-8"></script>
 <script src="./js/directives/navBar/navBarDirective.js" charset="utf-8"></script>
